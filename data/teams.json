@@ -1,0 +1,22 @@
+[
+  { "id": "arsenal", "ko": "아스널", "aliases": ["arsenal", "gunners", "아스널"] },
+  { "id": "astonvilla", "ko": "애스턴 빌라", "aliases": ["aston villa", "villa", "애스턴 빌라", "아스톤 빌라"] },
+  { "id": "bournemouth", "ko": "본머스", "aliases": ["bournemouth", "본머스"] },
+  { "id": "brentford", "ko": "브렌트퍼드", "aliases": ["brentford", "브렌트포드", "브렌트퍼드"] },
+  { "id": "brighton", "ko": "브라이턴", "aliases": ["brighton", "브라이턴"] },
+  { "id": "chelsea", "ko": "첼시", "aliases": ["chelsea", "첼시"] },
+  { "id": "coventry", "ko": "코번트리", "aliases": ["coventry", "코번트리"] },
+  { "id": "crystalpalace", "ko": "크리스탈 팰리스", "aliases": ["crystal palace", "palace", "크리스탈 팰리스"] },
+  { "id": "everton", "ko": "에버턴", "aliases": ["everton", "에버턴", "에버튼"] },
+  { "id": "fulham", "ko": "풀럼", "aliases": ["fulham", "풀럼"] },
+  { "id": "hull", "ko": "헐 시티", "aliases": ["hull city", "헐 시티"] },
+  { "id": "ipswich", "ko": "입스위치", "aliases": ["ipswich", "입스위치"] },
+  { "id": "leeds", "ko": "리즈", "aliases": ["leeds", "리즈"] },
+  { "id": "liverpool", "ko": "리버풀", "aliases": ["liverpool", "리버풀"] },
+  { "id": "mancity", "ko": "맨체스터 시티", "aliases": ["manchester city", "man city", "맨시티", "맨체스터 시티"] },
+  { "id": "manutd", "ko": "맨체스터 유나이티드", "aliases": ["manchester united", "man utd", "man united", "맨유", "맨체스터 유나이티드"] },
+  { "id": "newcastle", "ko": "뉴캐슬", "aliases": ["newcastle", "뉴캐슬"] },
+  { "id": "nottmforest", "ko": "노팅엄 포레스트", "aliases": ["nottingham forest", "nott'm forest", "forest", "노팅엄"] },
+  { "id": "sunderland", "ko": "선덜랜드", "aliases": ["sunderland", "선덜랜드"] },
+  { "id": "tottenham", "ko": "토트넘", "aliases": ["tottenham", "spurs", "토트넘"] }
+]

@@ -1,0 +1,5 @@
+[
+  { "id": "bbc", "name": "BBC Sport", "color": "#bb1919", "feeds": ["https://feeds.bbci.co.uk/sport/football/rss.xml"] },
+  { "id": "sky", "name": "Sky Sports", "color": "#0072c9", "feeds": ["https://www.skysports.com/rss/11095", "https://www.skysports.com/rss/12691"] },
+  { "id": "guardian", "name": "The Guardian", "color": "#3b6fb6", "feeds": ["https://www.theguardian.com/football/premierleague/rss"] }
+]
