@@ -6,7 +6,7 @@ export default function Sidebar() {
   ];
   return (
     <aside className="sidebar">
-      <div className="logo">EPL</div>
+      <div className="logo">축구<br />체크</div>
       {items.map((i) => (
         <div key={i.label} className={`side-item ${i.active ? "active" : ""}`} title={i.active ? "" : "준비중"}>
           <span>{i.icon}</span>

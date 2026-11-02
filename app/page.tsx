@@ -61,6 +61,8 @@ export default function Home() {
 
   return (
     <div className="col">
+      <h1 className="brand">축구체크<small>EPL 팀별 뉴스</small></h1>
+
       <input className="search" placeholder="검색어를 입력하세요" value={q} onChange={(e) => setQ(e.target.value)} />
 
       <div className="myteams">

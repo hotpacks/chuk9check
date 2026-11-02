@@ -1,6 +1,6 @@
-# chuk9check — EPL 팀별 뉴스 피드
+# 축구체크 (chuk9check) — EPL 팀별 뉴스 피드
 
-프리미어리그 팀별 뉴스를 한국어로 보여주는 사이트. 외부 LLM API·DB 없이, **Claude Code 세션이 직접 분류·번역**하고 결과를 `data/`의 JSON으로 저장한다.
+사이트명은 **축구체크**(저장소명 chuk9check). 프리미어리그 팀별 뉴스를 한국어로 보여주는 사이트. 외부 LLM API·DB 없이, **Claude Code 세션이 직접 분류·번역**하고 결과를 `data/`의 JSON으로 저장한다.
 
 ## 데이터 흐름
 `scripts/fetch.mjs`(RSS 수집·규칙 필터) → `data/inbox.json` → **`/update-news` (Claude가 분류·번역)** → `data/news.json` → Next.js 앱이 읽어서 표시

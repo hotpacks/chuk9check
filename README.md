@@ -1,4 +1,4 @@
-# chuk9check — EPL 팀별 뉴스 (한국어)
+# 축구체크 (chuk9check) — EPL 팀별 뉴스 (한국어)
 
 BBC Sport · Sky Sports · The Guardian 의 프리미어리그 기사를 모아 **팀 태그 + 한국어 제목/요약**으로 보여주는 사이트.
 내 구단을 고르면 그 팀 기사가 위로 올라옵니다.
