@@ -10,8 +10,9 @@ code { background: var(--panel-2); padding: 1px 6px; border-radius: 4px; }
 
 .sidebar { position: fixed; inset: 0 auto 0 0; width: 56px; background: var(--bg);
   border-right: 1px solid var(--line); display: flex; flex-direction: column; align-items: center; gap: 18px; padding-top: 14px; }
-.logo { font-weight: 900; font-size: 12px; line-height: 1.15; text-align: center; background: #fff; color: #000; padding: 4px 6px; transform: rotate(-4deg); margin-bottom: 8px; }
-.brand { font-size: 22px; font-weight: 900; margin: 4px 0 12px; letter-spacing: -0.5px; }
+.logo-img { width: 36px; height: 36px; border-radius: 50%; margin-bottom: 8px; display: block; }
+.brand { display: flex; align-items: center; gap: 8px; font-size: 22px; font-weight: 900; margin: 4px 0 12px; letter-spacing: -0.5px; }
+.brand-logo { display: none; width: 28px; height: 28px; border-radius: 50%; }
 .brand small { font-size: 12px; font-weight: 500; color: var(--muted); margin-left: 8px; letter-spacing: 0; }
 .side-item { display: flex; flex-direction: column; align-items: center; gap: 2px; color: var(--muted); opacity: .55; }
 .side-item.active { color: var(--accent); opacity: 1; }
@@ -63,6 +64,7 @@ code { background: var(--panel-2); padding: 1px 6px; border-radius: 4px; }
 
 @media (max-width: 640px) {
   .sidebar { display: none; }
+  .brand-logo { display: block; }
   .main { margin-left: 0; padding: 10px; }
   .title { font-size: 16px; }
   .right { margin-left: 0; width: 100%; }
